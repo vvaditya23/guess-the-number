@@ -14,6 +14,7 @@
 
 #Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 guesses in hard mode).
 
+Try it out here: https://replit.com/@vaditya23/guess-the-number?v=1
 
 ![watch the video](https://github.com/vvaditya23/guess-the-number/assets/70578987/8a04997c-80bd-4e6c-8096-4e2c61828048)
 
