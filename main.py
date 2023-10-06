@@ -11,8 +11,8 @@
 import random
 import art
 
-easy_level_attempts = 10
-hard_level_attempts = 5
+EASY_LEVEL_ATTEMPTS = 10
+HARD_LEVEL_ATTEMPTS = 5
 
 def check_answer(guess, answer, turns):
   if guess > answer:
@@ -28,9 +28,9 @@ def check_answer(guess, answer, turns):
 def set_difficulty():
   difficulty = input("Choose a difficulty level.'easy' or 'hard': ")
   if difficulty == "easy":
-    return easy_level_attempts
+    return EASY_LEVEL_ATTEMPTS
   elif difficulty == "hard":
-    return hard_level_attempts
+    return HARD_LEVEL_ATTEMPTS
 
 def game():
   print(art.logo)
